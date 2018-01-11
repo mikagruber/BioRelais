@@ -1,0 +1,308 @@
+@CHARSET "ISO-8859-1";
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.panier{
+  padding : 2px;
+  height :auto;
+  position : relative;
+  float: right;
+  color:black;
+  border :2px solid #2E7400;
+  border-radius : 10px;
+  background: #f0f0f0;
+}
+
+#conteneur{
+	margin: 0;
+	padding :0;
+	background: #f0f0f0;
+	background-repeat: repeat-x;
+}
+	.logo {
+	    top: 0px;
+	    left:0px;
+	    color: white;
+	    margin-left: 18px;
+	}
+
+	.logo img{
+			height: 15%;
+			width: 15%;
+	}
+#header {
+  	height: auto;
+		background: linear-gradient(to right, #f0f0f0 ,#8DC645);
+		margin: 0;
+		padding-top :10px;
+  	width: 100%;
+	}
+
+
+#bas {
+		background: #f0f0f0;
+  	display: block;
+  	//display: table;
+    padding-top:5px;
+    padding-bottom :5px;
+  	height: auto;
+  	width: 100%;
+		border-top : 1px solid black;
+}
+
+#nav {
+  	text-align: center;
+}
+
+#content {
+	  text-align: center;
+  	height: auto;
+  	margin-top: 20px;
+  	width: 100%;
+}
+
+nav.menuPrincipal {
+    background-color: #2E7400;
+    font-size: 0px;
+    text-align: center;
+    height: 50px;
+    padding: 0px;
+    margin: 0px;
+}
+
+nav.menuPrincipal ul {
+    display: inline-block;
+    list-style: none;
+}
+
+nav.menuPrincipal ul li {
+    display: inline-block;
+    font-size: 19px;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+nav.menuPrincipal ul li a {
+    display: table-cell;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    height: 50px;
+    width: 140px;
+    -webkit-transition-duration: 0.3s ;
+}
+
+nav.menuPrincipal ul li a:hover {
+    color: #919292;
+    -webkit-transition-duration: 0.3s ;
+}
+
+nav.menuPrincipal ul li .actif {
+    display: table-cell;
+    background-color: #f0f0f0;
+    color: black;
+    text-align: center;
+    vertical-align: middle;
+    height: 50px;
+    width: 140px;
+}
+
+.contentPrésentation {
+    background-color: #f0f0f0;
+    font-size: 20px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 130px;
+    height: auto;
+}
+.contentConnexion {
+    background-color: #f0f0f0;
+    font-size: 15px;
+    vertical-align: left;
+    padding: 130px;
+    height: auto;
+}
+
+.Connexion {
+    display: inline-block;
+    font-size: 15px;
+    width: auto;
+    height: auto;
+    border: 1px solid black;
+}
+
+.Connexion .titre {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px;
+
+}
+
+.Connexion .ligne {
+    padding: 15px;
+    text-align: center;
+}
+
+.Connexion .ligne label {
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+    padding-right: 10px;
+    font-weight: bold;
+}
+
+.Connexion .ligne input {
+    display: inline-block;
+    width: 200px;
+}
+
+.Connexion .ligne input[type=radio] {
+    display: inline-block;
+    width: 40px;
+}
+.contentCompte {
+    background-color: #f0f0f0;
+    font-size: 15px;
+    vertical-align: left;
+    padding: 130px;
+    height: auto;
+}
+
+.Compte {
+    display: inline-block;
+    font-size: 15px;
+    width: auto;
+    height: auto;
+    border: 1px solid black;
+}
+
+.Compte .titre {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px;
+
+}
+
+.Compte .ligne {
+    padding: 15px;
+    text-align: center;
+}
+
+.Compte .ligne label {
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+    padding-right: 10px;
+    font-weight: bold;
+}
+
+.Compte .ligne input {
+    display: inline-block;
+    width: 200px;
+}
+
+.Compte .ligne input[type=radio] {
+    display: inline-block;
+    width: 40px;
+}
+
+.contentInscription {
+    background-color: #f0f0f0;
+    font-size: 15px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 130px;
+    height: auto;
+}
+
+.Inscription {
+    display:inline-block;
+    font-size: 15px;
+    width: auto;
+    height: auto;
+    border: 1px solid black ;
+}
+
+.Inscription .titre {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px;
+
+}
+
+.Inscription .ligne {
+    padding: 15px;
+    text-align: center;
+}
+
+.Inscription .ligne label {
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+    padding-right: 10px;
+    font-weight: bold;
+}
+
+.Inscription .ligne input {
+    display: inline-block;
+    width: 200px;
+}
+
+.Inscription .ligne input[type=radio] {
+    display: inline-block;
+    width: 40px;
+}
+
+.contentenregistrer {
+    background-color: #f0f0f0;
+    font-size: 15px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 130px;
+    height: auto;
+}
+
+.fEnregistrementProducteur {
+    display: inline-block;
+    font-size: 15px;
+    width: auto;
+    height: auto;
+    border: 1px solid black;
+}
+
+.fEnregistrementProducteur .titre {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px;
+
+}
+
+.fEnregistrementProducteur .ligne {
+    padding: 15px;
+    text-align: center;
+}
+
+.fEnregistrementProducteur .ligne label {
+    display: inline-block;
+    width: 170px;
+    text-align: center;
+    padding-right: 10px;
+    font-weight: bold;
+}
+
+.fEnregistrementProducteur .ligne input {
+    display: inline-block;
+    width: 200px;
+}
+
+.fEnregistrementProducteur .ligne input[type=radio] {
+    display: inline-block;
+    width: 40px;
+}
